@@ -1,0 +1,32 @@
+vim.pack.add({
+  "https://github.com/neovim/nvim-lspconfig",
+  "https://github.com/mason-org/mason.nvim",
+  "https://github.com/mason-org/mason-lspconfig.nvim",
+  "https://github.com/saghen/blink.lib",
+  "https://github.com/saghen/blink.cmp",
+  "https://github.com/arborist-ts/arborist.nvim",
+  "https://github.com/stevearc/oil.nvim",
+  "https://github.com/nvim-tree/nvim-tree.lua",
+  "https://github.com/nvim-tree/nvim-web-devicons",
+  "https://github.com/nvim-lua/plenary.nvim",
+  "https://github.com/nvim-telescope/telescope.nvim",
+  "https://github.com/nvim-lualine/lualine.nvim",
+  "https://github.com/lewis6991/gitsigns.nvim",
+  "https://github.com/folke/which-key.nvim",
+  "https://github.com/nvim-lualine/lualine.nvim",
+  "https://github.com/windwp/nvim-autopairs",
+  "https://github.com/stevearc/conform.nvim",
+  "https://github.com/MeanderingProgrammer/render-markdown.nvim",
+  "https://github.com/catppuccin/nvim",
+})
+
+require("plugin-config.blink")
+require("plugin-config.oil")
+require("plugin-config.tree")
+require("plugin-config.telescope")
+require("plugin-config.arborist")
+require("plugin-config.lualine")
+require("plugin-config.autopairs")
+require("plugin-config.conform")
+require("plugin-config.render-markdown")
+require("plugin-config.catppuccin")
